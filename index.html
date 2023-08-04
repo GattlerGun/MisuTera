@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo-icon.ico" type="image-/x-icon">
+	<title>MisuTera</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body" class="lock-padding">
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__inner">
+				<div class="container">
+					<div class="header__top">
+						<div class="logo">
+							<a class="logo__link" href="#"><img class="logo__img" src="./images/sprite.svg#logo"
+									alt="logo"></a>
+						</div>
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a class="nav__link" href="#body">Home</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#products">Products</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#contacts">Subscribe</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="burger" id="burger" style="display: none;"><span></span></div>
+					</div>
+					<div class="header__body">
+						<div class="header__content">
+							<h1 class="header__title title">Discover the Future of Food with MisuTera!</h1>
+							<a class="header__btn button popup-link" href="#popup-contacts">Contacts Us</a>
+						</div>
+						<div class="header__img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="about">
+				<div class="container">
+					<div class="about__inner">
+						<h2 class="about__title title">MisuTera—Savor the Revolution</h2>
+						<p class="about__text text">Unleash your taste buds and explore a world of flavors with
+							MisuTera’s
+							innovative cuisine. Our culinary artists fuse traditional tastes with futuristic techniques
+							to create tantalizing dishes that will intrigue and impress.</p>
+					</div>
+				</div>
+			</section>
+			<section class="products" id="products">
+				<div class="container">
+					<div class="products__inner">
+						<div class="products__card">
+							<div class="products__content-box">
+								<h3 class="products__title title">Sustainable, Fresh Ingredients, Unmatched Taste</h3>
+								<p class="products__text text">With a commitment to sustainability and the environment,
+									we
+									source the finest local ingredients and fuse them with innovative culinary
+									techniques.
+								</p>
+							</div>
+							<div class="products__img">
+								<picture>
+									<source srcset="./images/content/1.avif" type="image/avif" media="all">
+									<source srcset="./images/content/1.webp" type="image/webp" media="all">
+									<img src="./images/content/1.jpg" alt="Fresh Ingredients image">
+								</picture>
+							</div>
+						</div>
+						<div class="products__card">
+							<div class="products__content-box">
+								<h3 class="products__title title">Conscious Dining Meets Bold Flavors</h3>
+								<p class="products__text text">Indulge in guilt-free dining with MisuTera’s
+									eco-conscious
+									ethos, where bold flavors and unparalleled taste come together.
+								</p>
+							</div>
+							<div class="products__img">
+								<picture>
+									<source srcset="./images/content/2.avif" type="image/avif" media="all">
+									<source srcset="./images/content/2.webp" type="image/webp" media="all">
+									<img src="./images/content/2.jpg" alt="Fresh Ingredients image">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="testimonials">
+				<div class="container">
+					<div class="testimonials__inner">
+						<div class="testimonials__card">
+							<div class="testimonials__avatar">
+								<picture>
+									<source srcset="./images/avatar/1.avif" type="image/avif" media="all">
+									<source srcset="./images/avatar/1.webp" type="image/webp" media="all">
+									<img class="testimonials__img" src="./images/avatar/1.jpg" alt="Sophia Johnson">
+								</picture>
+							</div>
+							<p class="testimonials__text text">
+								<strong>I’ve never tasted anything so amazing—it’s a food
+									revelation!
+								</strong>
+							</p>
+							<p class="testimonials__name text">Sophia Johnson</p>
+						</div>
+						<div class="testimonials__card">
+							<div class="testimonials__avatar">
+								<picture>
+									<source srcset="./images/avatar/2.avif" type="image/avif" media="all">
+									<source srcset="./images/avatar/2.webp" type="image/webp" media="all">
+									<img class="testimonials__img" src="./images/avatar/2.jpg" alt="Michael Lopez">
+								</picture>
+							</div>
+							<p class="testimonials__text text">
+								<strong>MisuTera is a game changer for the culinary world!
+								</strong>
+							</p>
+							<p class="testimonials__name text">Michael Lopez</p>
+						</div>
+						<div class="testimonials__card">
+							<div class="testimonials__avatar">
+								<picture>
+									<source srcset="./images/avatar/3.avif" type="image/avif" media="all">
+									<source srcset="./images/avatar/3.webp" type="image/webp" media="all">
+									<img class="testimonials__img" src="./images/avatar/3.jpg" alt="Emma Nguyen">
+								</picture>
+							</div>
+							<p class="testimonials__text text">
+								<strong>The perfect blend of artistry and flavor—truly mind-blowing!
+								</strong>
+							</p>
+							<p class="testimonials__name text">Emma Nguyen</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe" id="contacts">
+				<div class="container">
+					<div class="subscribe__inner">
+						<h2 class="subscribe__title title">Stay Updated with MisuTera’s Food Adventure</h2>
+						<form class="subscribe__form">
+							<input class="subscribe__input" type="email" placeholder="Your email" required>
+							<input class="subscribe__btn button" type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+			</section>
+			<div id="popup-contacts" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<button class="popup__close close-popup" type="button"><span></span></button>
+						<div class="contacts__text">
+							<div class="contacts__num">Для уточнения ассортимента/заказа блюд звоните на номер
+								<strong class="title">
+									<a class="num-link" href="tel:89932346512">89932346512</a>
+								</strong>
+							</div>
+							или
+							<adress class="contucts__adress">приезжайте по адресу:
+								<strong class="title">г.Москва ул.Ленинская д.32/2</strong>
+							</adress>
+						</div>
+						<div class="popup__socials">
+							<ul class="popup__list">
+								<li class="popup__item">
+									<a class="popup__link" href="https://twitter.com" target="_blank"><img class="popup__icon" src="./images/sprite.svg#twitter"
+											alt="twitter"></a>
+								</li>
+								<li class="popup__item">
+									<a class="popup__link" href="https://instagram.com" target="_blank"><img class="popup__icon" src="./images/sprite.svg#instagram"
+											alt="instagram"></a>
+								</li>
+								<li class="popup__item">
+									<a class="popup__link" href="https://vk.com" target="_blank"><img class="popup__icon" src="./images/sprite.svg#vk" alt="vk"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="popup" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<button class="popup__close close-popup" type="button"><span></span></button>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<p class="footer__copy">© 2023 MisuTera</p>
+					<button class="top__btn">
+						<img src="./images/sprite.svg#goTop" alt="go top btn">
+					</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
